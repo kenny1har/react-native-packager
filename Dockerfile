@@ -31,5 +31,5 @@ WORKDIR /opt/workspace
 VOLUME ["/opt/workspace"]
 EXPOSE 8081
 
-RUN forever `react-native start`
+CMD forever `react-native start`
 
